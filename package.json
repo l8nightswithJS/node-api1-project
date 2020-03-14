@@ -2,9 +2,9 @@
   "name": "node-api1-project",
   "version": "1.0.0",
   "description": "Node API 1 Project Starter Code",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "server": "nodemon index.js"
+    "server": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
     "nodemon": "^2.0.2"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "knex": "^0.20.7",
     "shortid": "^2.2.15",
     "sqlite3": "^4.1.1"
